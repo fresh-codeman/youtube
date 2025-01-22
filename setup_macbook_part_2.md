@@ -24,7 +24,7 @@ we will be installing following terminal tools for now
 
 ## Setting up the git and github
 we already installed the git nad for github we need to create a new account.
-1. setting up the token
+1. set up ssh connection
 2. setting up the 2FA
 
 
