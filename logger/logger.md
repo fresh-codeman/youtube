@@ -1,0 +1,1 @@
+In this directory day wise directories will going to be created which will have all the exercises and codding done on that day. and this will be going to be used for developing content for other repos.
