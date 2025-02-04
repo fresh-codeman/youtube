@@ -45,13 +45,33 @@ Day 11:
     ✔ fast slow pointers try to finish @started(25-01-31 07:10) @done(25-01-31 09:36) @lasted(2h26m9s)
     ✔ stack + queue intro @started(25-01-31 10:00) @done(25-01-31 12:09) @lasted(7h9m46s)
     ✔ characteristics DS, NE @started(25-01-31 15:09) @done(25-01-31 17:09) @lasted(2h40s)
-    ☐ creating flexible interface @started(25-01-31 17:10)
-    ☐ React videos--> both reach 2.5 hour watch time
-    ☐ rails finish getting started
-Day 12: 
-    ☐ 4 questions of fast and slow and sliding window
-    ☐ creating flexible interface
-    ☐ stack + queue 
-    ☐ DNS + revise video on load balancing + API gateway
-    ☐ React videos--> both reach 2.5 hour watch time
-    ☐ rails finish getting started
+    ✘ creating flexible interface @started(25-01-31 17:10) @cancelled(25-02-03 07:32) @wasted(2d14h22m41s)
+    ✘ React videos--> both reach 2.5 hour watch time @cancelled(25-02-03 07:32)
+    ✘ rails finish getting started @cancelled(25-02-03 07:32)
+Day 12:
+    ✔ personal work stopped my study
+Day 13: 
+    ☐ sunday and personal work extended
+Day 14:
+    ✔ 4 questions of fast and slow and sliding window @started(25-02-03 07:32) @done(25-02-03 09:50) @lasted(2h19m)
+    ✔ creating flexible interface @started(25-02-03 10:17) @done(25-02-03 12:17) @lasted(34s)
+    ✔ stack + queue @started(25-02-03 13:18) @done(25-02-03 15:22) @lasted(2h4m2s)
+    ✘ DNS + revise video on load balancing + API gateway @cancelled(25-02-04 07:04)
+    ✘ React videos--> both reach 2.5 hour watch time @cancelled(25-02-04 07:04)
+    ✘ rails finish getting started @cancelled(25-02-04 07:04)
+Day 15:
+    ✔ Learn DNS, Duck typing and sliding window problems | Update Day 15 [Fresh Codeman] @done(25-02-04 22:18)
+    ✔ Load Balancer and all load balancing algorithm | Revise [Fresh Codeman] @done(25-02-04 22:18)
+    ✔ 5 sliding window problems @started(25-02-04 07:08) @done(25-02-04 09:06) @lasted(1h58m39s)
+    ✔ duck typing @started(25-02-04 09:07) @done(25-02-04 11:01) @lasted(3h14m23s)
+    ✔ queue finisher @started(25-02-04 12:21) @done(25-02-04 14:11) @lasted(4h50m43s)
+    ✔ DNS + revise video on load balancing + API gateway @started(25-02-04 15:11) @done(25-02-04 17:12) @lasted(2h1m47s)
+    ✔ React videos--> both reach 2.5 hour watch time @started(25-02-04 18:02) @done(25-02-04 21:57) @lasted(3h55m17s)
+    ✘ rails finish getting started @cancelled(25-02-04 22:04)
+Day 16:
+    ☐ 4 sliding window problem + video
+    ☐ queue + linked list
+    ☐ cashing + video
+    ☐ acquiring behavior through inheritance
+    ☐ react 
+    ☐ rails finidh geetting started
