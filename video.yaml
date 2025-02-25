@@ -1,0 +1,9 @@
+- title: "Introduction to Ruby"
+  description: |
+    A beginner-friendly guide to getting started with Ruby programming.
+    Learn the syntax, variables, and basic data structures.
+    
+- title: "Advanced Rails Techniques"
+  description: |
+    Learn advanced features and best practices in Ruby on Rails.
+    Topics include caching, background jobs, and API development.

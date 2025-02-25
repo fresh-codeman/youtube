@@ -1,0 +1,229 @@
+title: Standardized Athletic Fitness Test
+discription: These tests assess strength, endurance, speed, agility, power, and flexibility
+test areas:
+  - title: 1RM (One Repetition Maximum) Strength Test
+    Goal: Measures maximum strength in major muscle groups.
+    tests:
+      - title: Squats
+        id: 1
+        How to do it:
+          Your squat 1RM (One Repetition Max) is the heaviest weight you can lift for one full rep with proper form.
+          Strength is categorized based on body weight (BW) to make results fair across different sizes.
+        stats for me:
+          beginner: 0.75*BW
+          intermediate: 1.25*BW
+          advanced: 1.75*BW
+          elite: 2*BW
+      - title: bench press
+        id: 2
+        How to do it:
+        stats for me:
+          beginner: 0.5*BW
+          intermediate: 1*BW
+          advanced: 1.5*BW
+          elite: 2*BW
+      - title: dead lift
+        id: 3
+        How to do it:
+        stats for me:
+          beginner: 1*BW
+          intermediate: 1.5*BW
+          advanced: 2*BW
+          elite: 2.5*BW
+      - title: pull ups
+        id: 4
+        How to do it:
+        youtube url: https://www.youtube.com/watch?v=eGo4IYlbE5g
+        stats for me:
+          beginner: 1-4
+          intermediate: 5-12
+          advanced: 12-20
+          elite: 20+
+      - title: Grip Strength Test
+        id: 5
+        Goal: Tests hand and forearm strength.
+        How to do it: Use a dynamometer to measure grip force in both hands
+
+  - title: Power Tests✔️
+    tests:
+      - title: Vertical Jump Test (Explosive Power)
+        id: 1
+        Goal: Measures lower body power.
+        How to do it:
+          Stand next to a wall and reach up to mark your highest standing reach.
+          Jump as high as possible and mark the highest touch point.
+          Measure the difference (in cm or inches).
+        youtube url: https://www.youtube.com/watch?v=j260zYfRz8Q
+        stats for me:
+          title: vertical jump
+          beginner: <40cm
+          intermediate: 40-50cm
+          advanced: 50-60cm
+          elite: 60cm+
+      - title: Broad Jump Test
+        id: 2
+        Goal: Measures lower body power.
+        How to do it: Stand behind a marked line with feet shoulder-width apart.
+          Swing arms and jump forward as far as possible using both feet.
+          Land with both feet together (falling backward invalidates the jump).
+          Measure the distance from the starting line to the closest heel.
+          Take three attempts, and record your best jump.
+        stats for me:
+          title: Standing Broad Jump,
+          beginner: <2m
+          intermediate: 2.2-2.5m
+          advanced: 2.5-2.8m
+          elite: 2.8m
+
+  - title: Cardiovascular Endurance Tests
+    tests:
+      - title: Yo-Yo Intermittent Recovery Test (Beep Test)
+        id: 1
+        Goal: Measures VO2 max & endurance for sports.
+        How to do it: Sprint 20 meters in time with beep sounds.
+          The beeps get faster in each level.
+          Stop when you can’t keep up with the beeps.
+        stats for me:
+          beginner: <6
+          intermediate: 7-10
+          advanced: 10-13
+          elite: 13+
+      - title: Cooper 12-Minute Run Test
+        id: 2
+        Goal: Tests long-distance endurance (VO2 max).
+        How to do it: Run as far as possible in 12 minutes.
+          Record the total distance covered.
+        stats for me:
+          beginner: <2km,
+          intermediate: 2-2.5km
+          advanced: 2.5-3km
+          elite: 3km+
+      - title: VO2 max
+        id: 3
+        Goal: VO₂ Max (Maximal Oxygen Uptake) is the maximum amount of oxygen your body can use during intense exercise. It’s a key measure of cardiovascular fitness and endurance.
+        How to do it: Use a VO2 max calculator to estimate aerobic capacity. after 12-minute run test.
+        stats for me:
+          beginner: <40,
+          intermediate: 40-50
+          advanced: 50-60
+          elite: 60+
+      - title: 300-Meter Sprint Test
+        id: 4
+        Goal: Tests anaerobic endurance & speed.
+        How to do it: Sprint 300 meters as fast as possible. Record your time.
+        stats for me:
+          beginner: <50sec
+          intermediate: 43-50sec
+          advanced: 38-42 sec
+          elite: <38 sec
+
+  - title: Speed & Agility Tests
+    tests:
+      - title: 40-Yard Dash
+        id: 1
+        Goal: Tests acceleration & max sprint speed.
+        How to do it: Sprint 40 yards (36.6 meters) at full speed.Record your time.
+        stats for me:
+          beginner: 6 sec+
+          intermediate: 5.2-6sec
+          advanced: 4.7-5.2sec
+          elite: <4.6
+      - title: Illinois Agility Test
+        id: 2
+        Goal: Measures agility & quick direction changes.
+        How to do it: Set up cones in a zigzag pattern.
+          Sprint through the course as fast as possible.
+          Record the time.
+        youtube_url: https://www.youtube.com/watch?v=k9CYW5NRMAk
+        stats for me:
+          beginner: 18sec+
+          intermediate: 16-18sec
+          advanced: 14-16sec
+          elite: <14 sec
+
+  - title: Flexibility & Mobility Tests
+    tests:
+      - tittle: Sit & Reach Test
+        id: 1
+        Goal: Measures hamstring & lower back flexibility.
+        How to do it: Sit with legs straight.
+          Reach forward as far as possible.
+          Measure the distance from fingertips to toes.
+        stats for me:
+          beginner: <0,
+          intermediate: 0-10cm
+          advanced: 10-20cm
+          elite: 20cm+
+      - title: Overhead Squat Test
+        id: 2
+        Goal: Assesses hip, knee, and shoulder mobility.
+        How to do it: Hold a bar overhead with both hands.
+          Perform a deep squat.
+          Check for balance, depth, and movement restrictions.
+        stats for me:
+          ✔️ Pass: Able to keep arms extended overhead with full-depth squat.
+          ❌ Fail: Arms drop forward, or balance is lost.
+  
+  - title: endurance test
+    tests:
+      - title: Plank test
+        id: 1
+        How to do it: Hold a forearm plank as long as possible.
+          Keep a straight line from head to heels.
+        stats for me:
+          beginner: 30 sec
+          intermediate: 1 min
+          advanced: 2 min
+          elite: 3 min+
+      - title: Push up Test
+        id: 2
+        Goal: upper body strength
+        How to do it: Start in a high plank position (hands under shoulders, back straight).
+          Lower your chest until elbows reach 90° or chest nearly touches the floor.
+          Push back up to full arm extension.
+          Perform as many reps as possible without stopping.
+          No knee push-ups, partial reps, or resting in the bottom position.
+        stats for me:
+          beginner: <30
+          intermediate: 40-50
+          advanced: 50-60
+          elite: 60+
+      - title: Wall Sit Test
+        id: 3
+        Goal: measures quadriceps, glutes, and core endurance
+        How to do it: Stand with your back against a wall, feet shoulder-width apart.
+          Slide down until your knees are bent at 90° (thighs parallel to the floor).
+          Keep your back straight and flat against the wall.
+          Hold this position for as long as possible without moving.
+          Time yourself and record the best result.
+        stats for me:
+          beginner: < 1.5 min
+          intermediate: 1.5 - 2.2 min
+          advanced: 2.2 - 3 min
+          elite: 3 min+
+      - title: Dead Hang Test
+        id: 4
+        Goal: measure grip strength, endurance, and upper body stability
+        How to do it: Find a Pull-Up Bar – Use a sturdy pull-up bar that allows you to hang freely without touching the ground.
+          Grip the Bar – Hold the bar with an overhand grip (palms facing away), shoulder-width apart.
+          Hang with Arms Extended – Keep your body straight, engage your core, and avoid swinging.
+          Time Yourself – Start a timer when you begin hanging and stop when you can no longer hold on.
+        stats for me:
+          beginner: < 0.5 min
+          intermediate: 0.5 - 1 min
+          advanced: 1 - 2 min
+          elite: 2 min+
+      - title: Flexed-Arm Hang Test (FAH)
+        id: 4
+        Goal: primarily targeting the biceps, back, and grip strength.
+        How to do it: Find a Pull-Up Bar – Use a sturdy bar high enough so your feet don’t touch the ground.
+          Grip the Bar – Use an underhand grip (palms facing you) or overhand grip (palms facing away).
+          Chin Above the Bar – Jump or use a box to get your chin above the bar and hold yourself there.
+          Start Timer – Begin timing once your arms are supporting your body.
+          Hold as Long as Possible – Stay in position without dropping or resting your chin on the bar.
+          End the Test – The test ends when your chin drops below the bar.
+        stats for me:
+          beginner: < 0.5 min
+          intermediate: 0.5 - 1 min
+          advanced: 1 - 2 min
+          elite: 2 min+

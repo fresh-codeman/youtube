@@ -1,34 +1,6 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-
-        {
-            "name": "Debug JavaScript",
-            "type": "node",
-            "request": "launch",
-            "program": "${file}",
-            "skipFiles": ["<node_internals>/**"],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "ruby_lsp",
-            "name": "Debug ruby script",
-            "request": "launch",
-            "program": "ruby ${file}"    
-        },
-        {
-            "type": "ruby_lsp",
-            "name": "Debug ruby test",
-            "request": "launch",
-            "program": "ruby -Itest ${relativeFile}"
-        },
-        {
-            "type": "ruby_lsp",
-            "name": "Attach ruby debugger",
-            "request": "attach"
-        }
-    ]
+  "pasteImage.path": "${projectRoot}/assets/images",
+  "pasteImage.basePath": "${projectRoot}",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.prefix": "/"
 }

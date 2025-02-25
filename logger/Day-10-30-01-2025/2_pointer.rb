@@ -1,73 +1,94 @@
-class TwoPointer
-  class<<self
-    def four_sum(input, target)
-      input.sort!()
-      quadrilles = []
-      length = input.size
-      i = 0
-      while i<length - 3
-        i += 1 while(i> 0 && i<length-3 && input[i] == input[i-1])
-        j = i+1
-        while j < length - 2
-          j += 1 while(j> i+1 && j<length-2 && input[j] == input[j-1])
-          find_two_sum_with_uniqueness(input, i, j, target, quadrilles)
-          j += 1 
-        end
-        i += 1 
-      end
-      return quadrilles
+def sort_matrix(grid)
+    i = 0
+    sort_diagonal(grid, 0,0)
+    i = 1
+    while i<grid.size-1 do
+        sort_diagonal(grid, 0,i)
+        sort_diagonal(grid, i, 0)
+        i+=1
     end
+end
 
-    def find_two_sum_with_uniqueness(input, i, j, target, quadrilles)
-      left, right = j+1, input.length-1
-      while left< right
-        new_target = input[left]+input[right]+input[i]+input[j]
-        if(new_target< target)
-          left+=1
-        elsif new_target > target
-          right -= 1
-        else
-          quadrilles.push([input[i], input[j], input[left], input[right]])
-          left+=1 while(left < right && input[left] == input[left+1])
-          right-=1 while(right > left && input[right] == input[right-1])
-          left +=1
-          right -= 1
-        end
-      end
+def sort_diagonal(grid, i, j)
+    len = grid.size
+    arr = []
+    p,q = i,j
+    while p< len && q < len do
+        arr.push(grid[p][q])
+        p, q = p+1, q+1
     end
-
-    def num_subarray_product_less_than_k(nums, k)
-      sub_array = 0
-      product = 1
-      left = 0
-      (0...nums.size).each do |right|
-        product *= nums[right]
-        product.round
-        while(left< nums.size && product >= k)
-          product /= nums[left]
-          product = product.round
-          left += 1
-        end
-        sub_array += right - left + 1
-        puts right - left + 1
-      end
-      return sub_array
+    arr.sort!{|a,b| j>0 ? a-b : b-a }
+    p,q = i,j
+    k = 0
+    while p< len && q < len do
+        grid[p][q] = arr[k]
+        p, q = p+1, q+1
+        k += 1
     end
-
-  end
 end
 
 
-if __FILE__==$0
-  #problem first ---------------------------------------
-  # nums = [1,0,-1,0,-2,2]
-  # target = 0
-  # puts TwoPointer.four_sum(nums, target)
- 
-  #problem 2 ---------------------------------------
 
-  #problem 2 ---------------------------------------
-  nums = [2, 5,1, 3, 10]
-  k = 30
-  puts TwoPointer.num_subarray_product_less_than_k(nums, k)
+def assign_elements(groups, elements)
+    output = []
+    groups.each do |group|
+        index = 0
+        while(index<elements.size) do
+            break if group%elements[index] == 0
+            index += 1
+        end
+        output.push(index == elements.size ? -1 : index)
+    end
+    return output
 end
+
+groups = [8,4,3,2,4]
+elements = [4,2]
+# puts assign_elements(groups, elements)
+# 
+# @param {String} s
+# @return {Integer}
+def count_substrings(s)
+    len = s.size
+    index = len-1
+    count = 0
+    while index>=0
+      if s[index] == '1' || s[index] == '2' || s[index] == '5'
+        count+= index+1
+      elsif s[index] == '4'
+        count +=1
+        count += index if index > 0 && s.slice(index-1,2).to_i%4 == 0
+      elsif s[index] == '8'
+        count +=1
+        count += 1 if index > 0 && s.slice(index-1,2).to_i%8 == 0
+        count += index-1 if index > 1 && s.slice(index-2,3).to_i%8 == 0
+      elsif s[index] == '3' || s[index] == '6'
+        i = index
+        sum = 0
+        while(i >= 0)
+          sum += s[i].to_i
+          count += 1 if sum%3 == 0
+          i -= 1
+        end
+      elsif s[index] == '9'
+        i = index
+        sum = 0
+        while(i >= 0)
+          sum += s[i].to_i
+          count += 1 if sum%9 == 0
+          i -= 1
+        end
+      elsif s[index] == '7'
+        i = index
+        while i>=0
+          count += 1 if s.slice(i, index-i+1).to_i-%7 == 0
+          i-=1
+        end
+      end
+      index -= 1
+    end
+    return count
+end
+
+s = "5701283"
+puts count_substrings(s)
