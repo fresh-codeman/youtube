@@ -44,7 +44,7 @@ test areas:
         Goal: Tests hand and forearm strength.
         How to do it: Use a dynamometer to measure grip force in both hands
 
-  - title: Power Tests✔️
+  - title: Power Tests
     tests:
       - title: Vertical Jump Test (Explosive Power)
         id: 1

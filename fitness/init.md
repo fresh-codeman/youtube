@@ -64,16 +64,14 @@ Hydration: Drink at least 3 liters of water daily. Sometimes thirst is mistaken 
 ## Exercise Plan
 
 ### Goal
-
-✔️ Lose weight
-✔️ Improve strength
-✔️ Increase endurance
+* Lose weight
+* Improve strength
+* Increase endurance
 
 ### Workout Types
-
-✅ Strength Training (Bodyweight exercises for muscle)
-✅ Cardio & Conditioning (Burn fat & improve endurance)
-✅ NEAT (Non-Exercise Activity Thermogenesis) (More movement daily)
+* ✅ Strength Training (Bodyweight exercises for muscle)
+* ✅ Cardio & Conditioning (Burn fat & improve endurance)
+* ✅ NEAT (Non-Exercise Activity Thermogenesis) (More movement daily)
 
 ### Plan is here for month
 

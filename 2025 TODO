@@ -1,20 +1,58 @@
 February:
     Goals:
-        ☐ Setup routine and system to track the health || 
-        ☐ Schedule your day such that you end your day happily || 
-        ☐ Manage second half in such a way that you create a daily small or big project || 
-        ☐ Decide is it good to make videos for health productivity and coding or not || 
-        ☐ At least  setup your system such that i can create review videos reviewing the courses of coding, and create videos to learn and build projects || 
-        ☐ Make sure  you call someone in your field for referral or career advises that i can add to my current schedule.
-    Day 25:
-        call deepak for referal and tell him my plan.
-        plan out health
-        plan out first half
-        plan out second half
-        Create new video for next Schedule.
-        
-
-        
+        ✔ Setup routine and system to track the health || @done(25-03-01 10:50)
+        ✘ Schedule your day such that you end your day happily || @cancelled(25-03-01 10:51)
+        ✘ Manage second half in such a way that you create a daily small or big project || @cancelled(25-03-01 10:51)
+        ✔ Decide is it good to make videos for health productivity and coding or not || @done(25-03-01 10:50)
+        ✔ At least setup your system such that i can create review videos reviewing the courses of coding, and create videos to learn and build projects || @done(25-03-01 10:51)
+        ✘ Make sure you call someone in your field for referral or career advises that i can add to my current schedule. @cancelled(25-03-01 10:51)
+    Days:
+        Date 25:
+            ✔ call deepak for referal and tell him my plan. @done(25-02-25 21:56)
+            ✔ plan out health @done(25-02-25 21:56)
+            ✔ plan out first half @done(25-02-25 21:56)
+            ✘ plan out second half @cancelled(25-02-26 07:09)
+            ✘ Create new video for next Schedule. @cancelled(25-02-26 07:09)
+        Date 26:
+            ✔ cyclic sort questions @started(25-02-26 07:11) @done(25-02-26 09:56) @lasted(2h45m18s)
+            ✔ trees and binary trees intro @done(25-02-26 12:26)
+            ✘ CDN @started(25-02-26 12:26) @cancelled(25-02-26 15:08) @wasted(2h42m43s)
+            ✔ combining objects with composition @started(25-02-26 15:08) @done(25-02-26 17:09) @lasted(2h1m1s)
+            ✔ react video 5 hours @done(25-02-27 07:03)
+        Date 27:
+            ✔ linked list @started(25-02-27 7:05) @done(25-02-27 9:38) @lasted(2h33m10s)
+            ✔ stack @started(25-02-27 10:38) @done(25-02-27 12:09) @lasted(1h31m57s)
+            ✘ testing ruby classes @cancelled(25-02-28 07:27)
+            ✔ react video 4 hours from 50 hour video. @done(25-02-28 07:27)
+        Date 28:
+            ✔ monotonic stack @started(25-02-28 07:47) @done(25-02-28 10:14) @lasted(2h27m41s)
+            ✘ testing ruby classes @cancelled(25-03-01 09:46)
+            ✔ react with type  script. @started(25-02-28 13:58) @done(25-03-01 09:46) @lasted(19h48m25s)
+March:
+    Goals:
+         ☐ Schedule your day such that you end your day happily
+         ☐ follow the daily time slots 6-12(fitness, problem solving), 12-4(system-design), 4-11(1 hour react, 1 hour postgres, 1 hour rub on rails, 2 hour project creating brileant copy. ),
+         ☐ Manage second half in such a way that you create a daily small or big project
+         ☐ Make sure you call someone in your field for referral or career advises that i can add to my current schedule.    
+    Days:
+        Date 1:
+            ✔ react interview questions @done(25-03-02 08:52)
+        Date 2:
+            ✔ ruby @done(25-03-03 07:33)
+        Date 3:
+            ✔ Hash @started(25-03-03 07:34) @done(25-03-03 11:05) @lasted(3h31m1s)
+            ✔ cdn @started(25-03-03 12:05) @done(25-03-03 14:34) @lasted(2h29m37s)
+            ✔ solid @started(25-03-03 14:34) @done(25-03-03 16:21) @lasted(1h47m52s)
+            ✔ react @started(25-03-03 16:21) @done(25-03-03 21:19) @lasted(4h58m47s)
+            ✔ database @done(25-03-03 21:19)
+            ✘ geektrust @cancelled(25-03-03 21:19)
+        Date 4:
+            ✔ bredthFirstSearch pattern @started(25-03-04 08:35) @done(25-03-04 11:36) @lasted(3h1m19s)
+            ✔ data partitioning @started(25-03-04 12:40) @done(25-03-04 15:20) @lasted(2h40m14s)
+            ✔ strategies @started(25-03-04 15:20) @done(25-03-04 17:04) @lasted(1h44m5s)
+            ✔ react @started(25-03-04 18:04) @done(25-03-04 19:04) @lasted(1h9s)
+            ✔ database @started(25-03-04 19:28) @done(25-03-04 20:28) @lasted(1h55s)
+            ✔ geektrust @started(25-03-04 21:19) @done(25-03-04 22:54) @lasted(1h35m38s)
         
 
 

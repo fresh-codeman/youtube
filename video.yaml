@@ -1,9 +1,45 @@
-- title: "Introduction to Ruby"
-  description: |
-    A beginner-friendly guide to getting started with Ruby programming.
-    Learn the syntax, variables, and basic data structures.
-    
-- title: "Advanced Rails Techniques"
-  description: |
-    Learn advanced features and best practices in Ruby on Rails.
-    Topics include caching, background jobs, and API development.
+- title: Binary tree breath first search(BSF) | Algo Pattern [Fresh Codeman]
+  description: ===========           Tree BFS   ================
+    Tree BFS (Breadth-First Search) traversal is a key technique used to explore nodes in a binary tree level by level, starting from the root. This pattern is important because it ensures that each node at a given level is processed before moving on to the next level, making it ideal for solving problems that require a level-wise approach. BFS traversal is particularly useful when we need to understand the structure of a tree or solve problems that rely on the tree's hierarchy, such as finding the shortest path or performing level order operations.
+
+    The overall approach for solving BFS-related problems involves using a queue data structure. We begin by inserting the root node into the queue, then repeatedly process nodes in the order they are removed from the queue. For each node, we add its child nodes to the queue, ensuring that all nodes at the current level are processed before the next level begins. This makes BFS an efficient way to explore each level of a tree in sequence and solve a wide range of problems that depend on level-wise exploration.
+
+    ===========         Problems        ===============
+    1. [Binary Tree Level Order Traversal (easy)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/binary-tree-level-order-traversal.md)
+    2. [Zigzag Traversal (medium)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/zig-zag-traverse.md)
+    3. [Level Averages in a Binary Tree (easy)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/level-average-in-binary-tree.md)
+    4. [Minimum Depth of a Binary Tree (easy)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/minimum-depth-of-binary-tree.md)
+    5. [Connect Level Order Siblings (medium)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/connect-level-order-sibling.md)
+    6. [Connect All Level Order Siblings (medium)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/connect-all-level-oreder-successor-in-binary-tree.md)
+    7. [Right View of a Binary Tree (easy)](https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main/problems/right-view-of-binary.md)
+
+    ===============                Real-World Applications of Tree BFS (Breadth-First Search)            ==============
+    Level Order Traversal of Organizational Hierarchies >>>
+    In companies, organizational hierarchies are often represented as trees. BFS can be used to traverse the hierarchy level by level, identifying all employees at the same level (e.g., all managers, all team leads) to perform operations such as payroll processing or team restructuring.
+    File System Searching >>>
+    File systems are typically represented as tree structures, where folders are parent nodes and files/sub-folders are child nodes. BFS can be used to explore files and folders at each directory level, which is useful in applications like file explorers to show all items in a folder before drilling down into sub-folders.
+    Binary Heap and Priority Queue Implementation >>>
+    Binary heaps (a type of binary tree) are used to implement priority queues. BFS is used to traverse the heap level by level when adding or removing elements. This ensures the heap properties are maintained efficiently.
+    Network Packet Broadcasting >>>
+    In networking, BFS is used to broadcast data packets across a tree structure. For example, BFS ensures that all nodes at the same depth (such as routers or switches) are processed before moving to the next depth level. This allows efficient distribution of data across a network.
+    Serializing and Deserializing Trees >>>
+    BFS is commonly used to serialize and deserialize binary trees. When saving a tree to a file or transferring it over a network, BFS ensures that all nodes at the same level are processed, which allows the tree structure to be rebuilt efficiently.
+
+- title: Content Delivery System(CDN) | System Design [Fresh Codeman]
+  description:
+    article link https://github.com/fresh-codeman/system-design/blob/main//high-level-design/cdn.md
+    =============        Intro to CDN          ===============
+    A Content Delivery Network (CDN) is a distributed network of servers strategically located across various geographical locations to deliver web content, such as images, videos, and other static assets, more efficiently to users.
+
+    I will revise following topics today.
+    1. Define CDN, PoP, edge server, origin server, cache warming, TTL, any cast, content invalidation, cache purging,Cache Control Headers, CDN Prefetching.
+    2. benefits of CDN, origin server vs edge server, CDN routing request handling
+    3. Anycast Routing, DNS-based Routing, GeoIP-based Routing, CDN Network Topologies
+    4. Flat Topology, Hierarchical Topology, Mesh Topology, Hybrid Topology
+    5. push cdn and pull cdn
+
+- title: s | Algo Pattern [Fresh Codeman]
+  description:
+
+- links: https://github.com/fresh-codeman/Algorithm-and-data-structure/blob/main
+    https://github.com/fresh-codeman/system-design/blob/main
